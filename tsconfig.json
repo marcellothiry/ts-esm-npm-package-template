@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "NodeNext",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true
+  }
+}
