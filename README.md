@@ -4,11 +4,14 @@ This is a boilerplate template for creating a npm package using TypeScript. It p
 
 With this template, you can kickstart the development of a TypeScript npm package, focusing on the core functionality of your library while leveraging the benefits of TypeScript and the npm ecosystem.
 
-This is the complementary repository for the YouTube video A npm package template really explained. For related material and more, visit our channel [@fromDev2Dev](https://www.youtube.com/@fromDev2Dev).
+This is the complementary repository for the YouTube video [A npm package template really explained](https://www.youtube.com/watch?v=gBLDBAiebks). For related material and more, visit our channel [@fromDev2Dev](https://www.youtube.com/@fromDev2Dev).
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gBLDBAiebks/0.jpg)](https://www.youtube.com/watch?v=gBLDBAiebks)
 
 ## Features
 
 - TypeScript: The template is preconfigured with TypeScript, enabling you to write type-safe code and take advantage of the rich ecosystem of TypeScript tooling.
+- Bundler: The template uses [Tsup](https://tsup.egoist.dev/) for building. Tsup is powered by esbuild, which means it's really fast.
 - Linting: The template incorporates a linter ([typescript-eslint](https://typescript-eslint.io/)) with predefined rules to enforce best practices.
 - Code Formatting: The template includes [Prettier](https://prettier.io/), a code formatting tool, to automatically format your TypeScript code and ensure consistent formatting across the project.
 - Git Hooks: The template includes two pre-configured git hooks using [Husky](https://typicode.github.io/husky/) to automate tasks. One for formatting, linting and testing before each commit (with [lint-staged](https://www.npmjs.com/package/lint-staged)). And another for checking coverage before each push.
@@ -17,8 +20,8 @@ This is the complementary repository for the YouTube video A npm package templat
 - Code Coverage: It includes a code coverage tool ([Vitest/C8](https://vitest.dev/guide/coverage.html)) to help you monitor and maintain a high level of test coverage.
 - Documentation: The template provides a basic structure for documentation, including a README file where you can describe the package and provide instructions for installation, usage, and contribution. In the folder `.github`, there is a template for pull requests (PR). This template will be used automatically by GitHub whenever you are creating a PR for your package.
 - npm Scripts: The template includes a set of npm scripts for common development tasks such as building, testing, linting, and releasing your package.
-- CI/CD Configuration: The template can be easily integrated with popular CI/CD services (such as GitHub Actions or Travis CI) to automate the build, test, and release processes.
-- License: It includes a license file where you can specify the license under which you want to release your package.
+- CI/CD Configuration: The template can be easily integrated with popular CI/CD services (such as GitHub Actions or Travis CI) to automate the build, test, and release processes. It uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/) to control versioning, publishing and releasing.
+- License: It includes a license file where you can specify the license under which you want to release your package. You can see more about licenses [here](https://license.md/).
 
 ## Installation
 
